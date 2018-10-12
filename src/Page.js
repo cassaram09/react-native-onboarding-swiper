@@ -36,8 +36,6 @@ const Page = ({
   return (
     <View style={[styles.container, { width, height }]}>
       <View style={[styles.imageContainer, imageContainerStyles]}>{image}</View>
-      {titleElement}
-      {subtitleElement}
     </View>
   );
 };
@@ -69,7 +67,7 @@ const styles = {
     paddingTop: potrait ? 0 : 10,
   },
   imageContainer: {
-    flex: 0,
+    flex: 1,
     paddingBottom: potrait ? 60 : 10,
     alignItems: 'center',
     width: '100%',
