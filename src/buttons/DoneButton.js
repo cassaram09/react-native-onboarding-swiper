@@ -30,10 +30,10 @@ class DoneButton extends React.Component {
       >
         <SymbolButton
           size={BUTTON_SIZE}
-          textStyle={getDefaultStyle(isLight)}
+          textStyle={{ color: '#39d834' }}
           style={{
             borderRadius: BUTTON_SIZE / 2,
-            backgroundColor: 'rgba(255, 255, 255, 0.10)',
+            backgroundColor: 'transparent',
             margin: MARGIN_RIGHT,
           }}
           {...rest}
